@@ -6,9 +6,21 @@
 
 ## To Do
 
-#### Skriv berättelsen
-<!-- id: task-1789371029039-86 -->
-<!-- priority: critical -->
+## In Progress
+
+## Done
+
+#### Klona repot
+<!-- id: task-1789371224632-115 -->
+Klona / forka repot och börja sedan jobba med materialet
+
+#### Inga kraschar
+<!-- id: task-1789370399886-49 -->
+vid normala inmatningar. Om du vill så kan du använda mönstret valideraren från kurswebben
+
+#### Spelarnamn
+<!-- id: task-1789370256358-0 -->
+programmet frågar efter spelarens namn och lagrar det i en variabel
 
 #### f-strängar
 <!-- id: task-1789370290018-5 -->
@@ -26,18 +38,6 @@ all jämförelse av inmatning sänks till gemener först
 <!-- id: task-1789370357795-38 -->
 minst två, och de ska vara olika. Slutar alla vägar likadant har spelarens val inte spelat någon roll
 
-#### Inga kraschar
-<!-- id: task-1789370399886-49 -->
-vid normala inmatningar. Om du vill så kan du använda mönstret valideraren från kurswebben
-
-## In Progress
-
-#### Spelarnamn
-<!-- id: task-1789370256358-0 -->
-programmet frågar efter spelarens namn och lagrar det i en variabel
-
-## Done
-
-#### Klona repot
-<!-- id: task-1789371224632-115 -->
-Klona / forka repot och börja sedan jobba med materialet
+#### Skriv berättelsen
+<!-- id: task-1789371029039-86 -->
+<!-- priority: critical -->

@@ -1,0 +1,2 @@
+karaktären ska välja vilken tåg station den ska av vid för att hinna till träningen han har klockan 8. han har 3 alternativ: östra, centrala och hörnefors
+om han väljer övik så slutar spelet för att det inte är nära umeå. östra är lite längre bort men den stannar först. central stannar sist men tar kortast tid. beroende på vilken station han kliver av vid säger koden om han blir sen eller just i tid
