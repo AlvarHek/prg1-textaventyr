@@ -29,13 +29,30 @@ elif A == "11":
     kort1 = A
 
 
-while con =! "nej":
+
 stotal = kort1 + kort
-print(f"Du fick {stotal + kort} och dealern fick {dkort1} och ?.  ")
+print(f"Du fick {stotal} och dealern fick {dkort1} och ?.  ")
 
 
 kort = random.choice([2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,8,9,9,9,9,A,A,A,A,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10])
 
-con = input("vill du dra mer kort, ja eller nej")
+con = input("vill du dra mer kort eller stanna? ").lower()
+if con == "stanna":
+    print(f"Du fick {stotal} och dealern fick {dtotal}")
+    if stotal > dtotal:
+        print("du vann!!!!")
+    else:
+        print("du förlora ):")
 
-
+while con != "stanna":
+    kort3 = random.choice([2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,8,9,9,9,9,A,A,A,A,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10])
+    stotal = stotal + kort3
+    if stotal > 21:
+        exit(f"du fick {stotal} som är över 21 så du förlorade")
+    else:
+        con = input(f"du fick {stotal}, vill du slå igen eller stanna? ")
+        if con == "stanna":
+            if dtotal > stotal:
+               print(f"du fick {stotal} och dealern fick {dtotal} så du förlorar ): ")
+            elif stotal > dtotal:
+               print(f"du {stotal} och dealern fick {dtotal} så du vann!!!!!!")

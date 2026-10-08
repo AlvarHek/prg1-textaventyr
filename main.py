@@ -30,14 +30,13 @@ elif val2 == "östra":
 else:
     print("idiot det var inte en av alternativen")
 filler = input("")
-val3 = (input(f"vid tåg stationen ser {namn} någon på järnvägen, {namn} ser tåget cirka 200 meter bort. tåget åker 20m/s, gubben är lite knubbig och {namn} tar 90 i marklyft. ska {namn} försöka rädda gubben, fega ut eller springa? ")).lower
+val3 = input(f"vid tåg stationen ser {namn} någon på järnvägen, {namn} ser tåget cirka 200 meter bort. tåget åker 20m/s, gubben är lite knubbig och {namn} tar 90 i marklyft. ska {namn} försöka rädda gubben, fega ut eller springa? ").lower()
 if val3 == "rädda":
     print(f"{namn} var för svag så du är både {namn} och gubben död")
-elif val3 == "fega ut":
-    print(f"gubben blev krossad och gubben huvud flög på dig. {namn} har fått trauma resten av livet")
+elif val3 == "stanna":
+    print(f"gubben blev krossad och gubbens huvud flög på dig. {namn} har fått trauma resten av livet")
 elif val3 == "springa":
     print(f"{namn} sprang ivåg och glömde bort om händelsen inom några månader")
 else:
-    print("det var inte en av altenativen")
-    exit()
+    exit("idiot det var inte en av alternativen")
 
